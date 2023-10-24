@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>3D VINA</title>
+</head>
+
+<body>
+    <section class="header-top">
+        <div class="container p-0">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 col-2 ">
+                    <a id="showmenu" class="d-lg-none d-md-block">
+                        <span class="hamburger hamburger--collapse">
+                        <span class="hamburger-box">
+                        <span class="hamburger-inner"></span>
+                        </span>
+                        </span>
+                        </a>
+                    <div class="list-sp">
+                        <div class="btn-listp d-lg-block d-md-none d-none" type="button" data-toggle="collapse"
+                            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            <i class="fa-solid fa-bars fa-xl" style="color: #000000;"></i>
+                            &ensp;Danh mục sản phẩm
+                        </div>
+                        <div class="collapse" id="collapseExample">
+                            <div class="list-menusub">
+                                <h5>Hiệu chuẩn - sửa máy đo</h5>
+                                <a href="product.html">Hệ chuẩn thiết bị</a><br>
+                                <a href="product.html">Sửa máy đo 2D, 3D, CMM</a><br>
+                                <a href="product.html">Mua - Bán máy đo 2D, 3D, CMM cũ</a><br>
+                            </div>
+                            <div class="list-menusub">
+                                <h5>Thiết bị đo lường</h5>
+                                <a href="product.html">Máy đo 2D - Máy đo 3D</a><br>
+                                <a href="product.html">Máy đo CMN</a><br>
+                                <a href="product.html">Kính hiển vi các loại</a><br>
+                                <a href="product.html">Máy đo độ cứng</a><br>
+                                <a href="product.html">Dụng cụ đo mitutoyo</a><br>
+                                <a href="product.html">Camera kính hiển vi</a><br>
+                                <a href="product.html">Vật tư nhà máy của Trung Quốc</a><br>
+                                <a href="product.html">Thiết bị đo cầm tay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5 d-lg-flex d-md-none d-none justify-content-space-between">
+                                <div class="d-flex">
+                                    <a href="index.html"><img src="image/Vector.png" alt=""></a>
+                                    <ul class="nav1 d-lg-flex d-md-none">
+                                        <li><a href="introduce.html">Giới thiệu</a></li>
+                                        <li><a href="blog.html">Blog Đo</a></li>
+                                        <li><a href="video.html">Video</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 d-lg-block d-md-none d-none">
+                                <div class="search d-flex">
+                                    <input type="text"><i class="fa-solid fa-magnifying-glass fa-sm"
+                                        style="color: #008848;"></i>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 d-lg-flex justify-content-space-between ">
+                                <div class="d-flex">
+                                    <ul class="nav2 d-lg-flex d-md-none d-none">
+                                        <li><a href="news.html">Tin tức</a></li>
+                                        <li><a href="q&a.html">Hỏi đáp</a></li>
+                                        <li><a href="contact.html">Liên hệ</a></li>
+                                    </ul>
+                                    <div class="btn-oder d-none">
+                                        <i class="fa-solid fa-basket-shopping fa-sm d-flex" style="color: #ffffff;"></i><a class="d-lg-flex d-md-none d-none"
+                                            href="cart.html">Giỏ hàng</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container p-0">
+        <div class="primary">
+            <section class="breadcrumb-i">
+                <div class="container p-0">
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Trang Chủ</a></li>
+                            <li class="breadcrumb-item"><a href="product.html">Sản Phẩm</a></li>
+                            <li class="breadcrumb-item"><a href="product.html">Hiệu Chuẩn Thiết Bị</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">CÁC LOẠI MÁY VÀ THIẾT BỊ ĐO LƯỜNG
+                            </li>
+                        </ol>
+                    </nav>
+                </div>
+            </section>
+            <section class="info-product">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12 col-12 box-left">
+                        <div class="img-product">
+                            <img src="image/QM0718-CLMN-CMS-p1FT (1).jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 box-right">
+                        <h5>CÁC LOẠI THIẾT BỊ VÀ MÁY ĐO LƯỜNG</h5>
+                        <div class="title01">Liên hệ</div>
+                        <div class="type-title">
+                            <div class="title02">Danh mục: <a href="product.html">&ensp;Hiệu chuẩn thiết
+                                    bị</a></div>
+                        </div>
+                        <div class="type-title">
+                            <div class="title02">Từ khóa: <a href="">3d vina,</a><a href=""> hiệu chuẩn thiết bị,</a><a
+                                    href=""> máy đo 2d,</a><a href=""> máy đo 3d,<br></a><a href=""> máy đo cmm,</a><a
+                                    href=""> sửa máy đo 2d,</a><a href=""> sửa máy đo 3d,</a><a href=""> sửa máy đo
+                                    cmm</a>
+                            </div>
+                        </div>
+                        <div class="type-title">
+                            <div class="title02">Số lượng: </div>
+                            <div class="input-number">
+                                <input class="increase" type="button" value="-">
+                                <input class="number" type="number" value="1" size="4" step="1" min="1">
+                                <input class="increase" type="button" value="+">
+                            </div>
+                        </div>
+                        <div class="btn-ccbuy">
+                            <button><i class="fa-solid fa-cart-shopping" style="color: #ffffff;"></i> <a href="cart.html" style="color: #ffffff;">Thêm vào
+                                giỏ</a></button>
+                            <div class="btn-buy"><a href="checkout.html">Mua ngay</a></div>
+                        </div>
+                        <div class="info-text-product">
+                            <ul class="ul-reset-if">
+                                <li><i class="fa-solid fa-truck-fast" style="color: #008848;"></i> &ensp;Vận chuyển giao
+                                    hàng toàn quốc</li>
+                                <li><i class="fa-solid fa-credit-card" style="color: #008848;"></i> &ensp;Phương thức
+                                    thanh toán linh hoạt</li>
+                                <li><i class="fa-solid fa-phone" style="color: #008848;"></i> &ensp;Gọi ngay <a
+                                        href="">+84 978.190.642</a> để mua và đặt hàng nhanh chóng</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="describe-product">
+                <div class="row">
+                    <div class="col-lg-8 col-md-12 col-12">
+                        <h5>mô tả sản phẩm</h5>
+                        <div class="desc-top">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <strong>1. Máy đo 3 chiều – Coordinate measuring machine</strong>
+                            <div class="desc-content">
+                                <div class="cont-if">
+                                    <p>Máy CMM là máy đo tọa độ 3 chiều. Đây là loại máy với chức năng đo tọa độ ba chiều X,
+                                    Y, Z với độ chính xác cao. Giúp cho việc đo lường kích thước của sản phẩm dễ dàng
+                                    hơn. Cho kết quả có độ chính xác đến hàng micro met. Dùng để kiếm tra các sản phẩm,
+                                    chi tiết cơ khí…</p>
+                                <p>Để hiệu chuẩn máy đo 3 chiều – Coordinate measuring machine <br> vui lòng liên hệ với Công Ty
+                                Hiệu Chuẩn CAL-GROUP</p>
+                                </div>
+                                
+                            
+                            <div class="img-if"><img src="image/May-do-3-chieu-CMM.jpg" alt=""></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-12 col-12">
+                        <h4>tin tức</h4>
+                        <div class="img-banner">
+                            <a href="detailnews.html"><img src="image/3d-vina-388 (1).jpg" alt=""></a>
+                            <div class="title-banner">
+                                <a href="detailnews.html">3D Vina – Trung tâm bảo hành, sửa chữa, hiệu chuẩn cho máy đo Nikon</a>
+                            </div>
+                        </div>
+                        <div class="baner-about">
+                            <div class="img-smbanner">
+                                <div class="img">
+                                    <a href="detailnews.html"><img src="image/3d-vina-387 (1).png" alt=""></a>
+                                </div>
+                                <div class="title-banner">
+                                    <a href="detailnews.html">3D Vina – Trung tâm bảo hành, sửa chữa, hiệu chuẩn cho máy đo Nikon</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="img-banner">
+                            <a href="detailnews.html"><img src="image/3d-vina-388 (1).jpg" alt=""></a>
+                            <div class="title-banner">
+                                <a href="detailnews.html">3D Vina – Trung tâm bảo hành, sửa chữa, hiệu chuẩn cho máy đo Nikon</a>
+                            </div>
+                        </div>
+                        <div class="baner-about">
+                            <div class="img-smbanner">
+                                <div class="img">
+                                    <a href="detailnews.html"><img src="image/3d-vina-387 (1).png" alt=""></a>
+                                </div>
+                                <div class="title-banner">
+                                    <a href="detailnews.html">3D Vina – Trung tâm bảo hành, sửa chữa, hiệu chuẩn cho máy đo Nikon</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="baner-about">
+                            <div class="img-smbanner">
+                                <div class="img">
+                                    <a href="detailnews.html"><img src="image/3d-vina-387 (1).png" alt=""></a>
+                                </div>
+                                <div class="title-banner">
+                                    <a href="detailnews.html">3D Vina – Trung tâm bảo hành, sửa chữa, hiệu chuẩn cho máy đo Nikon</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="baner-about">
+                            <div class="img-smbanner">
+                                <div class="img">
+                                    <a href="detailnews.html"><img src="image/3d-vina-387 (1).png" alt=""></a>
+                                </div>
+                                <div class="title-banner">
+                                    <a href="detailnews.html">3D Vina – Trung tâm bảo hành, sửa chữa, hiệu chuẩn cho máy đo Nikon</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="box-vote">
+                    <h2 class="title">Đánh giá</h2>
+                    <div class="comment">Chưa có đánh giá nào</div>
+                    <div class="btn-vote">
+                        <div class="title-vote">Đánh giá sản phẩm</div>
+                        <div class="button">
+                            <div class="submit-vote">Write A Review</div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+            <section class="slide-product">
+                <div class="type-title">
+                    Sản phẩm liên quan
+                </div>
+                <div class="slide-detailpro">
+                    <div class="box-item">
+                        <div class="product-item">
+                        <div class="img-item">
+                            <a href="detailproduct.html"><img src="image/Group 1036.png" alt=""></a>
+                        </div>
+                        <div class="title-product">
+                            <div class="name">
+                                HK6U3COOL-CCD CAMERA
+                            </div>
+                            <div class="contact">
+                                <a href="contact.html">Liên hệ</a>
+                            </div>
+                        </div>
+                        <div class="btn-buy">chọn mua</div>
+                    </div>
+                    </div>
+                    <div class="box-item">
+                        <div class="product-item">
+                        <div class="img-item">
+                            <a href="detailproduct.html"><img src="image/Group 1036.png" alt=""></a>
+                        </div>
+                        <div class="title-product">
+                            <div class="name">
+                                HK6U3COOL-CCD CAMERA
+                            </div>
+                            <div class="contact">
+                                <a href="contact.html">Liên hệ</a>
+                            </div>
+                        </div>
+                        <div class="btn-buy">chọn mua</div>
+                    </div>
+                    </div>
+                    <div class="box-item">
+                        <div class="product-item">
+                        <div class="img-item">
+                            <a href="detailproduct.html"><img src="image/Group 1036.png" alt=""></a>
+                        </div>
+                        <div class="title-product">
+                            <div class="name">
+                                HK6U3COOL-CCD CAMERA
+                            </div>
+                            <div class="contact">
+                                <a href="contact.html">Liên hệ</a>
+                            </div>
+                        </div>
+                        <div class="btn-buy">chọn mua</div>
+                    </div>
+                    </div>
+                    <div class="box-item">
+                        <div class="product-item">
+                        <div class="img-item">
+                            <a href="detailproduct.html"><img src="image/Group 1036.png" alt=""></a>
+                        </div>
+                        <div class="title-product">
+                            <div class="name">
+                                HK6U3COOL-CCD CAMERA
+                            </div>
+                            <div class="contact">
+                                <a href="contact.html">Liên hệ</a>
+                            </div>
+                        </div>
+                        <div class="btn-buy">chọn mua</div>
+                    </div>
+                    </div>
+                    <div class="box-item">
+                        <div class="product-item">
+                        <div class="img-item">
+                            <a href="detailproduct.html"><img src="image/Group 1036.png" alt=""></a>
+                        </div>
+                        <div class="title-product">
+                            <div class="name">
+                                HK6U3COOL-CCD CAMERA
+                            </div>
+                            <div class="contact">
+                                <a href="contact.html">Liên hệ</a>
+                            </div>
+                        </div>
+                        <div class="btn-buy">chọn mua</div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <footer>
+                <div class="container p-0">
+                    <div class="bgr">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="title-ft">trụ sở</div>
+                                <div class="title">
+                                    <strong>TRỤ SỞ CHÍNH: CÔNG TY CỔ PHẦN THIẾT BỊ ĐO LƯỜNG 3D VINA</strong>
+                                </div>
+                                <div class="address">
+                                    <i class="fa-solid fa-location-dot"></i> Địa chỉ: Số TT12 - C24, KĐT Văn Quán, Hà Đông,
+                                    Hà
+                                    Nội, Việt Nam
+                                </div>
+                                <div class="call"><i class="fa-solid fa-phone"></i> Điện thoại: +84 969.752.366</div>
+                                <div class="hotline"><i class="fa-solid fa-mobile"></i> Hotline: <a href="">+84
+                                        969.752.366</a>
+                                </div>
+                                <div class="email"><i class="fa-solid fa-envelope"></i> Email: 3dvina.hieuchuan3d@gmail.com
+                                </div>
+                                <div class="website"><i class="fa-solid fa-earth-americas"></i> Website: <a
+                                        href="">hieuchuan3d.com - hieuchuan3d.kr - maydo3dvina.vn - sinowon-vietnam.com</a>
+                                </div>
+                                <div class="tit">
+                                    <strong>TRỤ SỞ MIỀN NAM: </strong>Tầng 11A, TN Deli Office, 70 Phạm Ngọc Thạch, P.6,
+                                    Q.3,
+                                    TP. Hồ Chí Minh
+                                </div>
+                                <div class="hotline">Hotline: <a href="">+84 969.752.366</a></div>
+                                <div class="tit">
+                                    <strong>TRỤ SỞ MIỀN TRUNG: </strong>Số 17, Đường Đồng Khởi, Phường Hòa Minh, Quận Liên
+                                    Chiểu, Thành phố Đà Nẵng, Việt Nam
+                                </div>
+                                <div class="hotline">Hotline: <a href="">+84 969.752.366</a></div>
+                                <div class="icon-link">
+                                    <ul class="ul-reset">
+                                        <li class="fb-icon ef"><i class="fa-brands fa-facebook-f fa-xl"></i></li>
+                                        <li class="tw-icon ef"><i class="fa-brands fa-twitter fa-xl"></i></li>
+                                        <li class="ytb-icon ef"><i class="fa-brands fa-youtube fa-xl"></i></li>
+                                        <li class="pin-icon ef"><i class="fa-brands fa-pinterest-p fa-xl"></i></li>
+                                        <li class="ins-icon ef"><i class="fa-brands fa-instagram fa-xl"></i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="title-ft">chi nhánh</div>
+                                <div class="cn">
+                                    <strong>CHI NHÁNH BẮC GIANG: </strong><i>94 Lý Thái Tổ, Phường Tân Phú, Thành phố Bắc
+                                        Giang</i>
+                                </div>
+                                <div class="cn">
+                                    <strong>CHI NHÁNH BẮC NINH: </strong><i>Số 22, Đường Lý Thái Tổ, Phường Đại Phúc, Thành
+                                        phố
+                                        Bắc Ninh, Tỉnh Bắc Ninh</i>
+                                </div>
+                                <div class="cn">
+                                    <strong>CHI NHÁNH THÁI NGUYÊN: </strong><i>684 Cách Mạng Tháng 8, tổ dân phố 4, Phố Cò,
+                                        Sông
+                                        Công, Thái Nguyên</i>
+                                </div>
+                                <div class="cn">
+                                    <strong>CHI NHÁNH HẢI PHÒNG: </strong><i>47/384 Lạch Tray, Ngô Quyền, Hải Phòng</i>
+                                </div>
+                                <div class="cn">
+                                    <strong>CHI NHÁNH HẢI DƯƠNG: </strong><i>29 Mạc Đĩnh Chi, Nam Sách, Hải Dương</i>
+                                </div>
+                                <div class="cn">
+                                    <strong>CHI NHÁNH THÁI BÌNH: </strong><i>61 Chu Văn An, Phường Quang Trung, TP. Thái
+                                        Bình,
+                                        tỉnh Thái Bình</i>
+                                </div>
+                                <div class="cn">
+                                    <strong>CHI NHÁNH THÁI BÌNH: </strong><i>Số 6, đường Hai Bà Trưng - Thị xã Phúc Yên -
+                                        Vĩnh
+                                        Phúc</i>
+                                </div>
+                                <div class="title-ft">fanpage</div>
+                                <div class="fb">
+                                    <iframe
+                                        src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fweibovietnam&tabs=timeline&width=340&height=331&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
+                                        width="318" height="130" style="border:none;overflow:hidden" scrolling="no"
+                                        frameborder="0" allowfullscreen="true"
+                                        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="copy">
+                            3DVina 2023. All rights reserved. Designed by Vicogroup.vn
+                        </div>
+                    </div>
+                </div>
+        
+            </footer>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
